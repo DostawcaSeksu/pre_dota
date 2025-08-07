@@ -77,13 +77,12 @@ This project was developed using Python. It is recommended to use a virtual envi
 3.  **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
-    venv\Scripts\activate
+    venv\Scripts\Activate.ps1
     ```
 4.  **Install the required libraries:**
     ```bash
-    pip install -r /path/to/requirements.txt
+    pip install -r req.txt
     ```
-    *(Note: Make sure to change `/path/to/requirements.txt` to real file path).*
 
 ---
 

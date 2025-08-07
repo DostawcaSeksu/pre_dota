@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data_folder = 'dota-2-matches/versions/2/'
+data_folder = 'data/'
 
 try:
     players_df = pd.read_csv(data_folder + 'players.csv')
@@ -40,5 +40,5 @@ final_df.info()
 print('\nFirst 5 rows: ')
 print(final_df.head())
 
-final_df.to_csv('dota_preprocessed_data.csv')
-print('\nFinal data is saved in "dota_preprocessed_data.csv".')
+final_df.to_csv('data/dota_preprocessed_data.csv')
+print('\nFinal data is saved in "data/dota_preprocessed_data.csv".')

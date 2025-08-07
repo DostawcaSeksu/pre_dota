@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
-df = pd.read_csv('dota_preprocessed_data.csv', index_col='match_id')
+df = pd.read_csv('data/dota_preprocessed_data.csv', index_col='match_id')
 x = df.drop('radiant_win', axis=1).values
 y = df['radiant_win'].values
 
