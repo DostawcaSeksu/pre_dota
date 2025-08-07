@@ -73,13 +73,14 @@ For all models, the data was scaled using `StandardScaler` to ensure stable trai
 This project was developed using Python. It is recommended to use a virtual environment.
 
 1.  **Clone the repository or download the files.**
-2.  **Install CUDA toolkit 12.6 (you can dowload it [here](https://developer.nvidia.com/cuda-12-6-0-download-archive)).**
-3.  **Create and activate a virtual environment:**
+2.  **Put your match.csv and players.csv files in `data` folder**
+3.  **Install CUDA toolkit 12.6 (you can dowload it [here](https://developer.nvidia.com/cuda-12-6-0-download-archive)).**
+4.  **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
     venv\Scripts\Activate.ps1
     ```
-4.  **Install the required libraries:**
+5.  **Install the required libraries:**
     ```bash
     pip install -r req.txt
     ```
